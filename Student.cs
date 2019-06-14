@@ -14,6 +14,10 @@ class Student : NSSPeople
     public string Cohort {get; set;}
 
     public List<Exercise> StudentExercises {get; set;}
+    public string GetFullName()
+        {
+            return $"{FirstName} {LastName}";
+        }
 
 }
 
