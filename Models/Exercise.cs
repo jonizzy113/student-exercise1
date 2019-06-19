@@ -3,13 +3,9 @@ using System.Collections.Generic;
 
 namespace student_exercise1
 {
-    class Exercise
+    public class Exercise
     {
-        public Exercise(string exerciseName, string exerciseLanguage)
-        {
-            ExerciseName = exerciseName;
-            ExerciseLanguage = exerciseLanguage;
-        }
+        public int Id { get; set; }
         public string ExerciseName { get; set; }
         public string ExerciseLanguage { get; set; }
 
